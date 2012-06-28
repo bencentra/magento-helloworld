@@ -1,0 +1,18 @@
+<config>
+    <modules>
+        <GlobalThinking_HelloWorld>
+            <version>0.1.0</version>
+        </GlobalThinking_HelloWorld>
+    </modules>
+    <admin>
+    	<routers>
+    		<adminhelloworld>
+    			<use>admin</use>
+    			<args>
+    				<module>GlobalThinking_HelloWorld</module>
+    				<frontName>adminhelloworld</frontName>
+    			</args>
+    		</adminhelloworld>
+    	</routers>
+    </admin>
+</config>

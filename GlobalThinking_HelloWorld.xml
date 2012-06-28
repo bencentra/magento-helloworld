@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <GlobalThinking_HelloWorld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </GlobalThinking_HelloWorld>
+    </modules>
+</config>

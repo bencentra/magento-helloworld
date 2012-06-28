@@ -1,0 +1,10 @@
+# FILES TO IGNORE #
+###################
+
+.buildpath
+.project
+.settings/*
+
+*.buildpath
+*.project
+*.settings/*
