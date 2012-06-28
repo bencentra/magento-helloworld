@@ -7,7 +7,7 @@
     <frontend>
     	<routers>
     		<gthelloworld>
-    			<use>admin</use>
+    			<use>standard</use>
     			<args>
     				<module>GlobalThinking_HelloWorld</module>
     				<frontName>gthelloworld</frontName>
