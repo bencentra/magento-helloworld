@@ -4,15 +4,15 @@
             <version>0.1.0</version>
         </GlobalThinking_HelloWorld>
     </modules>
-    <admin>
+    <frontend>
     	<routers>
-    		<adminhelloworld>
+    		<gthelloworld>
     			<use>admin</use>
     			<args>
     				<module>GlobalThinking_HelloWorld</module>
-    				<frontName>adminhelloworld</frontName>
+    				<frontName>gthelloworld</frontName>
     			</args>
-    		</adminhelloworld>
+    		</gthelloworld>
     	</routers>
-    </admin>
+    </frontend>
 </config>
