@@ -11,7 +11,7 @@ class GlobalThinking_HelloWorld_RenderController extends Mage_Core_Controller_Fr
 	public function overrideAction()
 	{
 								//"package_module/blockname"
-		$blockHtml = $this->getLayout()->createBlock('globalthinking_helloworld/sample')->toHtml();
+		$blockHtml = $this->getLayout()->createBlock('GlobalThinking_HelloWorld/sample')->toHtml();
 		$this->getResponse()->setBody($blockHtml);
 	}
 }
