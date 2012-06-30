@@ -4,6 +4,23 @@
             <version>0.1.0</version>
         </GlobalThinking_HelloWorld>
     </modules>
+    <global>
+    	<blocks>
+	    <GlobalThinking_HelloWorld>
+		<class>GlobalThinking_HelloWorld_Block</class>
+	    </GlobalThinking_HelloWorld>
+	</blocks>
+	<!-- <helpers>
+	    <GlobalThinking_HelloWorld>
+		<class>GlobalThinking_HelloWorld_Helper</class>
+	    </GlobalThinking_HelloWorld>
+	</helpers>
+	<models>
+	    <GlobalThinking_HelloWorld>
+		<class>GlobalThinking_HelloWorld_Model</class>
+	    </GlobalThinking_HelloWorld>
+	</models> -->
+    </global>
     <frontend>
     	<routers>
     		<gthelloworld>
