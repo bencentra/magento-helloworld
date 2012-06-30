@@ -5,8 +5,14 @@ class GlobalThinking_HelloWorld_RenderController extends Mage_Core_Controller_Fr
 {
 	public function blockAction()
 	{
-		$this->getResponse()->setBody("Hello, World!");
-		
+		$this->getResponse()->setBody("Hello, World!");	
+	}
+
+	public function overrideAction()
+	{
+								//"package_module/blockname"
+		$blockHtml = $this->getLayout()->createBlock('globalthinking_helloworld/sample')->toHtml();
+		$this->getResponse()->setBody($blockHtml);
 	}
 }
 
