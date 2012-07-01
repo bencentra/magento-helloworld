@@ -1,5 +1,5 @@
 # GlobalThinking_HelloWorld Module
 code                            app/code/local/GlobalThinking/HelloWorld
 frontend/layout/*				app/design/frontend/base/default/layout/
-frontend/template				app/design/frontend/base/default/template/helloworld
+frontend/template				app/design/frontend/base/default/template/GlobalThinking_HelloWorld
 GlobalThinking_HelloWorld.xml   app/etc/modules/GlobalThinking_HelloWorld.xml

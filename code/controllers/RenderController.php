@@ -14,6 +14,13 @@ class GlobalThinking_HelloWorld_RenderController extends Mage_Core_Controller_Fr
 		$blockHtml = $this->getLayout()->createBlock('GlobalThinking_HelloWorld/sample')->toHtml();
 		$this->getResponse()->setBody($blockHtml);
 	}
+
+	public function templateAction()
+	{
+		$blockHtml = $this->getLayout()->createBlock('core/template')
+					->setTemplate('GlobalThinking_HelloWorld/random.phtml')->toHtml();
+		$this->getResponse()->setBody($blockHtml);
+	}
 }
 
 ?>
